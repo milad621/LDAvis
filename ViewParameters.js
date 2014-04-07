@@ -14,11 +14,12 @@
 var THRESHHOLD = 0.01;
 
 //var HIGHLIGHT = "red";
-var HIGHLIGHT = "pink";
+//var HIGHLIGHT = "pink";
+var HIGHLIGHT = "orange";
 var DEFAULT = "default";
 var DESELECT = "deselect";
 
-var colorNames = ["orange", "blue", "green", "red", "brown", "purpule"];
+var colorNames = ["blue", "brown", "pink", "green", "cyan", "yellow", "purpule", "red"];
 var colorObjs = [];
 
 /**

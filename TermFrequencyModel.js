@@ -193,7 +193,7 @@ TermFrequencyModel.prototype.selectTopic = function( obj ) {
 	if( topic !== null){
 
 		// if color is DEFAULT, the event can be treated as a deselect
-		if( color === DEFAULT) {
+		if( color === DEFAULT || color == brown) {
 			if(this.selectedTopics[topic] !== null){
 				var index = this.colorList.indexOf(this.selectedTopics[topic]);
 				this.colorList.splice(index,1);

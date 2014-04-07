@@ -9,6 +9,11 @@ line.blue{
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
+line.brown {
+	stroke: #800000;
+	stroke-opacity: 1;
+	stroke-width: 0.5px;
+}
 line.orange {
 	stroke: #ff7f0e;
 	stroke-opacity: 1;
@@ -19,13 +24,18 @@ line.green {
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
-line.purple {
-	stroke: #9467bd;
+line.cyan {
+	stroke: #00FFFF;
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
-line.brown {
-	stroke: #800000;
+line.yellow {
+	stroke: #FFFF99;
+	stroke-opacity: 1;
+	stroke-width: 0.5px;
+}
+line.purple {
+	stroke: #9467bd;
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
@@ -66,6 +76,12 @@ text.blue {
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
+text.brown {
+	fill: #800000;
+	stroke: #800000;
+	stroke-opacity: 1;
+	stroke-width: 0.5px;
+}
 text.orange {
 	fill: #ff7f0e;
 	stroke: #ff7f0e;
@@ -78,15 +94,21 @@ text.green {
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
-text.purple {
-	fill: #9467bd;
-	stroke: #9467bd;
+text.cyan {
+	fill: #00FFFF;
+	stroke: #00FFFF;
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
-text.brown {
-	fill: #800000;
-	stroke: #800000;
+text.yellow {
+	fill: #FFFF99;
+	stroke: #FFFF99;
+	stroke-opacity: 1;
+	stroke-width: 0.5px;
+}
+text.purple {
+	fill: #9467bd;
+	stroke: #9467bd;
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
@@ -116,6 +138,13 @@ circle.blue {
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
+circle.brown {
+	fill: #800000;
+	fill-opacity: 0.5;
+	stroke: #800000;
+	stroke-opacity: 1;
+	stroke-width: 0.5px;
+}
 circle.orange {
 	fill: #ff7f0e;
 	fill-opacity: 0.5;
@@ -130,17 +159,24 @@ circle.green {
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
+circle.cyan {
+	fill: #00FFFF;
+	fill-opacity: 0.5;
+	stroke: #00FFFF;
+	stroke-opacity: 1;
+	stroke-width: 0.5px;
+}
+circle.yellow {
+	fill: #FFFF99;
+	fill-opacity: 0.5;
+	stroke: #FFFF99;
+	stroke-opacity: 1;
+	stroke-width: 0.5px;
+}
 circle.purple {
 	fill: #9467bd;
 	fill-opacity: 0.5;
 	stroke: #9467bd;
-	stroke-opacity: 1;
-	stroke-width: 0.5px;
-}
-circle.brown {
-	fill: #800000;
-	fill-opacity: 0.5;
-	stroke: #800000;
 	stroke-opacity: 1;
 	stroke-width: 0.5px;
 }
@@ -198,6 +234,12 @@ line.HISTnormal {
 	stroke-opacity: 1;
 	stroke-width: 5px;
 }
+.HISTbrown {
+	fill: #800000;
+	stroke: #800000;
+	stroke-opacity: 1;
+	stroke-width: 5px;
+}
 .HISTorange {
 	fill: #ff7f0e;
 	stroke: #ff7f0e;
@@ -210,16 +252,22 @@ line.HISTnormal {
 	stroke-opacity: 1;
 	stroke-width: 5px;
 }
+.HISTcyan {
+	fill: #00FFFF;
+	stroke: #00FFFF;
+	stroke-opacity: 1;
+	stroke-width: 5px;
+}
+.HISTyellow {
+	fill: #FFFF99;
+	stroke: #FFFF99;
+	stroke-opacity: 1;
+	stroke-width: 5px;
+}
 
 .HISTpurple {
 	fill: #9467bd;
 	stroke: #9467bd;
-	stroke-opacity: 1;
-	stroke-width: 5px;
-}
-.HISTbrown {
-	fill: #800000;
-	stroke: #800000;
 	stroke-opacity: 1;
 	stroke-width: 5px;
 }
