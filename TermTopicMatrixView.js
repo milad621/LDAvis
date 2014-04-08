@@ -24,11 +24,21 @@ var top_docs;
 d3.json("data/top_docs.json", function(error, json){
         if(error) return console.warn(error);
         top_docs = json;
+        //alert(top_docs)
         //party = jQuery.extend(true, {}, party);
         //alert(top_docs["top_docs"]["Akaka, Daniel Kahikina 3"]);
 });
 
-//alert(top_docs["Akaka, Daniel Kahikina 3"]);
+var titles;
+
+d3.json("data/titles.json", function(error, json){
+        if(error) return console.warn(error);
+        titles = json;
+        //alert(titles);
+        //party = jQuery.extend(true, {}, party);
+        //alert(top_docs["top_docs"]["Akaka, Daniel Kahikina 3"]);
+        });
+//alert(titles["Akaka, Daniel Kahikina 3"]);
 
 var MATRIX_CONTAINER_PADDING = {
 	left_separation: 8,
@@ -242,10 +252,12 @@ TermTopicMatrixView.prototype.updateMatrixView = function(){
         key = d.term + " " + d.topicIndex;
         //alert(typeof top_docs["top_docs"][key]);
         //alert(top_docs["top_docs"][key].length);
+        //alert(titles + " " + top_docs);
         var links = "";
         for(var i=0;i<top_docs["top_docs"][key].length;i++){
             links = links + "<a href=" + top_docs["top_docs"][key][i] + ">";
-        links = links + "Link " + i + "</a><br/>";
+            //links = links + "Link " + i + "</a><br/>";
+            links = links + titles["titles"][key][i];
         }
         document.getElementById("topDocs").innerHTML = "<p style=\"text-align:center;\">Top 5 docs: </p>" + links;
         //document.getElementById("topDocs").innerHTML = links;
