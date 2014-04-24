@@ -406,13 +406,13 @@ TermTopicMatrixView.prototype.highlight = function( term, topic ) {
 			.classed(HIGHLIGHT, true)	
 			
 		// highlight term labels
-		for( var i = 0; i < termIndex.length; i++){
+		/*for( var i = 0; i < termIndex.length; i++){
 			var term = termIndex[i];
 			if( matrix[i][topic] > THRESHHOLD ){
 				this.leftLabelLayer.selectAll("." + getTermClassTag(term))	
 					.classed(HIGHLIGHT, true)
 			}
-		}
+		}*/
 	}
 };
 /** 

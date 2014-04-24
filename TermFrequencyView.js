@@ -374,7 +374,7 @@ TermFrequencyView.prototype.highlight = function( term, topic ) {
 			// add bar with offset
 			this.useOffset = true;
 		}
-		for( var i = 0; i < termIndex.length; i++){
+		/*for( var i = 0; i < termIndex.length; i++){
 			var term = termIndex[i];
 			if( topicals[i]> THRESHHOLD ){
 				this.svgTermLabelLayer.selectAll("." + getTermClassTag(term))	
@@ -393,6 +393,6 @@ TermFrequencyView.prototype.highlight = function( term, topic ) {
 						.attr( "x1", this.line_length(offset));
 				}
 			}
-		}
+		}*/
 	}
 };
